@@ -36,3 +36,15 @@
     transform: rotate(360deg);
   }
 }
+.Square {  
+  width: 100px;
+  height: 100px;
+  background-color: aliceblue;
+  }
+
+  .Square:hover {  
+    width: 100px;
+    height: 100px;
+    background-color: #015c75;
+    transform: scale(1.5);
+    }
