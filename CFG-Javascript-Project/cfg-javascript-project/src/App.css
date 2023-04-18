@@ -32,19 +32,34 @@
   from {
     transform: rotate(0deg);
   }
+
   to {
     transform: rotate(360deg);
   }
 }
-.Square {  
+
+.SquareBlue {
   width: 100px;
   height: 100px;
   background-color: aliceblue;
-  }
+}
 
-  .Square:hover {  
-    width: 100px;
-    height: 100px;
-    background-color: #015c75;
-    transform: scale(1.5);
-    }
+.SquareBlue:hover {
+  width: 100px;
+  height: 100px;
+  background-color: #015c75;
+  transform: scale(1.5);
+}
+
+.SquarePink {
+  width: 100px;
+  height: 100px;
+  background-color: rgb(214, 138, 189);
+}
+
+.SquarePink:hover {
+  width: 100px;
+  height: 100px;
+  background-color: #75015c;
+  transform: scale(1.5);
+}

@@ -15,7 +15,7 @@ const TileTest = (props) => {
   return (
     <div>
       <div>
-        <div className="Square" onMouseOver={handleMouseOver} onMouseOut={handleMouseOut}>
+        <div onMouseOver={handleMouseOver} onMouseOut={handleMouseOut}>
           {message}
         </div>
 
