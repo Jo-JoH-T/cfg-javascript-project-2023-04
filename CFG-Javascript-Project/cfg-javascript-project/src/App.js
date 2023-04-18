@@ -12,14 +12,14 @@ function App() {
         </p>
         <table>
           <th>
-            <td><TileTest /></td>
-            <td><TileTest /></td>
-            <td><TileTest /></td>
+            <td><TileTest className="SquarePink"/></td>
+            <td><TileTest className="SquareBlue"/></td>
+            <td><TileTest className="SquarePink"/></td>
           </th>
           <tr>
-            <td><TileTest /></td>
-            <td><TileTest /></td>
-            <td><TileTest /></td>
+            <td><TileTest className="SquareBlue"/></td>
+            <td><TileTest className="SquarePink"/></td>
+            <td><TileTest className="SquareBlue"/></td>
           </tr>
         </table>
 
